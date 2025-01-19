@@ -1,3 +1,11 @@
+.roboto-rob {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 body {
     color: #6D3424;
     /*background-color: #F4F3F2;*/
@@ -6,22 +14,124 @@ body {
     margin: 0;
 }
 
+header {
+    padding-top: 0.5px;
+    padding-bottom: 1px;
+}
+
+h1 {
+    text-align: left;
+    font-size: 35px;
+    font-family: Roboto, serif;
+    
+}
+
+
+
 nav {
 
     background-color: #536331;
-    width: 100%;
+    width: 200%;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    font-family: baskerville, serif;
 }
 
-nav ul {
+.dropdown p a {
 
-    list-style-type: none;
-    
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
 }
 
-ul li a {
-    
+.nav-bar {
+
+    float: left;
+    overflow: hidden;
+
+}
+
+.nav-bar .menu-button {
+
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+
+}
+
+.nav-bar a:hover, .dropdown:hover, .menu-button {
+
+    background-color: #6D3424;
+
+}
+
+.dropdown-content {
+
+    display: none;
+    position: absolute;
+    background-color: hsl(13, 50%, 28%);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content p a {
+
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
     display: block;
-    width: 300px;
+    text-align: left;
+
+}
+
+.dropdown-content a:hover {
+
+    background-color: hsl(13, 50%, 15%);
+
+}
+
+.dropdown:hover .dropdown-content {
+
+    display: block;
+
+}
+
+.divider-burg {
+    border-top: 0;
+    background-color: #6D3424;
+    height: 10px;
+    width: 200%;
+
+}
+
+.img-list-horizontal {
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-list-horizontal  li img {
+
+    width: 50%;
+
+}
+
+.img-list-horizontal  li p  {
+
+    text-align: center !important;
+    width: 370px;
+
 }
