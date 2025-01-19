@@ -1,0 +1,27 @@
+body {
+    color: #6D3424;
+    /*background-color: #F4F3F2;*/
+    background-color: #CB9F66;
+    font-family: baskerville, serif;
+    margin: 0;
+}
+
+nav {
+
+    background-color: #536331;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+
+    list-style-type: none;
+    
+}
+
+ul li a {
+    
+    display: block;
+    width: 300px;
+}
