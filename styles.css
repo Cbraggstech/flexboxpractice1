@@ -123,14 +123,16 @@ nav {
 .img-list-vertical li {
     
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-wrap: no-wrap;
     padding-bottom: 20px;
 	padding-top: 20px;
+    overflow: hidden;
 }
 
 .img-list-vertical {
-
+    
     border: 5px;
     border-color: #536331;
     border-style: solid;
@@ -141,14 +143,13 @@ nav {
 .img-list-vertical  li img {
     
     width: 50%;
-	
+
 }
 
 .img-list-vertical  li p  {
 	
     text-align: center !important;
     width: 370px;
-    
 }
 
 .vert-text {
