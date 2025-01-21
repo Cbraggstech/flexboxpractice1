@@ -120,7 +120,7 @@ nav {
 
 }
 
-.img-list-vertical li {
+.img-list-vertical div {
     
     display: flex;
     justify-content: center;
@@ -140,13 +140,13 @@ nav {
     padding-bottom: 20px;
 }
 
-.img-list-vertical  li img {
+.img-list-vertical  div img {
     
     width: 50%;
 
 }
 
-.img-list-vertical  li p  {
+.img-list-vertical  div p  {
 	
     text-align: center !important;
     width: 370px;
