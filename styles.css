@@ -171,7 +171,9 @@ img {
 }
 
 .img-list-vertical  img {
-
+    
+    /*Sets image height to make images uniform*/
+    max-height: 475px;
     width: 800px;
 }
 
