@@ -29,7 +29,8 @@ h1 {
 .sample-text {
 	
 	font-weight: bold;
-	
+	padding-left: 20px;
+    padding-right: 20px;
 }
 
 nav {
@@ -120,12 +121,18 @@ nav {
 
 }
 
+h1, h2, h3 {
+
+    padding-left: 20px;
+
+}
+
 .img-list-horizontal, .img-list-vertical{
 
     display: flex;
     flex-wrap: wrap;
     margin: 20px auto;
-    max-width: 800px;
+    max-width: 215vh;
     gap: 20px;
     border: 5px;
     border-color: #536331;
@@ -137,12 +144,6 @@ nav {
 }
 
 .img-list-vertical {
-
-    flex-direction: column;
-
-}
-
-.img-list-horizontal {
 
     justify-content: space-between;
 
@@ -168,6 +169,12 @@ img {
     border-radius: 5px;
 
 }
+
+.img-list-vertical  img {
+
+    width: 800px;
+}
+
 
 .img-list > p {
 
